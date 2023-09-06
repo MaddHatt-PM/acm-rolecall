@@ -2,7 +2,7 @@
     "name": "acm-roll-call",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://maddhatt-pm.github.io/acm-rollcall",
+    "homepage": "https://maddhatt-pm.github.io/acm-rolecall",
     "dependencies": {
         "@testing-library/jest-dom": "^5.14.1",
         "@testing-library/react": "^13.0.0",

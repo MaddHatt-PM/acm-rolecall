@@ -29,7 +29,7 @@ export const H1 = styled.h1`
   text-align: center;
   filter: drop-shadow(0 4px 4px #00000076 );
   line-height: 2vw;
-  `;
+`;
 
 export const H2 = styled.h2`
   font-size: 4vw;
@@ -45,4 +45,4 @@ export const QRCode = styled.img`
   margin-left: auto;
   margin-right: auto;
   width: 20%;
-`
+`;
