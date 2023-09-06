@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/acm-rolecall/static/css/main.1a1aa370.css",
-    "main.js": "/acm-rolecall/static/js/main.4c870b18.js",
-    "static/js/787.292b1c94.chunk.js": "/acm-rolecall/static/js/787.292b1c94.chunk.js",
+    "main.js": "/acm-rolecall/static/js/main.f24433cf.js",
+    "static/js/787.5bb49c8b.chunk.js": "/acm-rolecall/static/js/787.5bb49c8b.chunk.js",
     "static/media/qr-code.png": "/acm-rolecall/static/media/qr-code.b5db61d20617b446346f.png",
     "index.html": "/acm-rolecall/index.html",
     "main.1a1aa370.css.map": "/acm-rolecall/static/css/main.1a1aa370.css.map",
-    "main.4c870b18.js.map": "/acm-rolecall/static/js/main.4c870b18.js.map",
-    "787.292b1c94.chunk.js.map": "/acm-rolecall/static/js/787.292b1c94.chunk.js.map"
+    "main.f24433cf.js.map": "/acm-rolecall/static/js/main.f24433cf.js.map",
+    "787.5bb49c8b.chunk.js.map": "/acm-rolecall/static/js/787.5bb49c8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a1aa370.css",
-    "static/js/main.4c870b18.js"
+    "static/js/main.f24433cf.js"
   ]
 }
