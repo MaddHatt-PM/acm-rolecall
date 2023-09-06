@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/acm-rollcall/static/css/main.1a1aa370.css",
+    "main.js": "/acm-rollcall/static/js/main.0ed04deb.js",
+    "static/js/787.292b1c94.chunk.js": "/acm-rollcall/static/js/787.292b1c94.chunk.js",
+    "static/media/qr-code.png": "/acm-rollcall/static/media/qr-code.b5db61d20617b446346f.png",
+    "index.html": "/acm-rollcall/index.html",
+    "main.1a1aa370.css.map": "/acm-rollcall/static/css/main.1a1aa370.css.map",
+    "main.0ed04deb.js.map": "/acm-rollcall/static/js/main.0ed04deb.js.map",
+    "787.292b1c94.chunk.js.map": "/acm-rollcall/static/js/787.292b1c94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a1aa370.css",
+    "static/js/main.0ed04deb.js"
+  ]
+}
