@@ -18,18 +18,18 @@ export const fragmentSource = `
 
   void main() {
     float strength = 0.4;
-    float moveDampener = 15.0;
-    float colorDampener = 2.5;
+    float moveDampener = 80.0;
+    float colorDampener = 30.0;
     float t = time/moveDampener;
 
     vec3 col = vec3(0);
     vec2 fC = gl_FragCoord.xy;
 
-    #ifdef AA
-    for (int i = -1; i <= 1; i++) {
-      for (int j = -1; j <= 1; j++) {
-        fC = gl_FragCoord.xy + vec2(i,j) / 3.0;
-        #endif
+    // #ifdef AA
+    // for (int i = -1; i <= 1; i++) {
+    //   for (int j = -1; j <= 1; j++) {
+    //     fC = gl_FragCoord.xy + vec2(i,j) / 3.0;
+    //     #endif
         
         vec2 pos = fC / resolution.xy;
         pos.y /= resolution.x / resolution.y;
@@ -42,11 +42,11 @@ export const fragmentSource = `
 
         col += 0.5 + 0.5 * cos((time / colorDampener) + pos.xyx + vec3(0,2,3));
         
-        #ifdef AA
-      }
-    }
-    col /= 9.0;
-    #endif
+    //     #ifdef AA
+    //   }
+    // }
+    // col /= 9.0;
+    // #endif
 
     col = pow(col, vec3(0.4545));
     // Remap color to range

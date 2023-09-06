@@ -7,8 +7,8 @@ import { FPS30, FPS60 } from "./useWebGL";
 
 
 const minHeightSettings = {
-  screenWidth: 1600,
-  height: 1920
+  screenWidth: 1920,
+  height: 1080
 }
 const maxHeightSettings = {
   screenWidth: 700,
@@ -20,7 +20,7 @@ const HeaderCanvas = () => {
 
   const [canvas, resizeCanvas] = useWebGL({
     initWidth: window.innerWidth,
-    initHeight: height,
+    initHeight: window.innerHeight,
     updateInterval: FPS30,
   })
 
@@ -37,7 +37,7 @@ const HeaderCanvas = () => {
       heightScalar
     )
 
-    setHeight(newHeight)
+    setHeight(window.innerHeight)
     resizeCanvas(newHeight)
   }
 
@@ -50,7 +50,7 @@ const HeaderCanvas = () => {
   return (
     <Container height={height + "px"}>
       {canvas}
-      <TitleHeader text={"Some Resources"} />
+      {/* <TitleHeader text={"Some Resources"} /> */}
     </Container>
   );
 };
